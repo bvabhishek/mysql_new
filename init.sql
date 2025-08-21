@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS hashdump (
 -- Insert base64-encoded hash of the flag
 -- Flag: FLAG{MYSQL_HASHDUMP_CTF}
 INSERT INTO hashdump (username, hash)
-VALUES ('admin', 'RkxBR3tNeXNxbEN0RiEyMDI1fQ==');
+VALUES ('admin', 'ZmxhZ3tNeXNxbEN0RiEyMDI1fSE=');
 
 -- Create CTF player user
 CREATE USER IF NOT EXISTS 'ptcuser'@'%' IDENTIFIED BY 'Mint@9876543210';
